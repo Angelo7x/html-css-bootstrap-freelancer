@@ -6,8 +6,12 @@ header {
 
 ul li {
     display: inline-block;
-    text-decoration: none;
     padding-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 .start-bootstrap {
@@ -47,13 +51,27 @@ ul li {
     overflow: hidden;
 }
 
+.about {
+    background-color: #1abc9c;
+}
+
 .about-container {
     width: 90%;
-    background-color: #1abc9c;
     padding:25px 0;
     max-width: 1000px;
     margin: auto;
     color: white;
+}
+
+.contact-container {
+    width: 90%;
+    padding:25px 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact form {
+    text-align: left;
 }
 
 .footer-top {
